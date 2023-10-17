@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#131E1A"
+    tools:context=".MainActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#935EF6"
+        >
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bgsidebar"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/museumlogo"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An exhibit that shows
+ \n Philippine Artistic Heritage\n
+Through Artificial Intelligence"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:fontFamily="@font/montserratbold"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                />
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/qrcode"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            />
+
+
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="300dp"
+            android:src="@drawable/framew"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
